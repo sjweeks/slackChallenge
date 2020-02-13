@@ -1,0 +1,19 @@
+.messageBody {
+    margin: 20px;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.inputArea {
+    display: flex;
+    /* margin: 5px; */
+    border: solid 1px;
+    border-radius: 5px;
+}
