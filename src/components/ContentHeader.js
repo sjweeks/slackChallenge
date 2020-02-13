@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Content() {
+function ContentHeader() {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function Content() {
     )
 }
 
-export default Content;
+export default ContentHeader;
