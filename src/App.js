@@ -11,14 +11,15 @@ class App extends Component {
 
     return (
       <div className="container">
-        <div>
+        <div className="nav-container">
           <h3>Nav Bar</h3>
           <Navbar />
         </div>
-        <div>
+        <br />
+        <div className="content-container">
           <ContentHeader />
           <Content />
-          <input type='text'/>
+          <input className="inputSection" type='text'/>
         </div>
         
       </div>
