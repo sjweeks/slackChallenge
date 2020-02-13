@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './css/Content.css';
 
 function Content() {
     return (
-        <div>
+        <div className="mainContent">
             
         </div>
     )
