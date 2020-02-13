@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Content() {
+function Content(props) {
     return (
         <div>
             
