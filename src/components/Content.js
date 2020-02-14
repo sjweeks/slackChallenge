@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import '../css/Content.css'
-
 import Attach from '../images/attach.png';
 import Bold from '../images/bold.png';
 import Italic from '../images/italic.png';
@@ -40,9 +39,9 @@ class Content extends Component {
                     {messages}
                 </div>
                 <div className="inputSection">
-                    <div>
-                    <input type="text" onChange={this.updateMessage}/>
-                    <button onClick={this.storeMessage}>Send Message</button>
+                    <div className="userInput">
+                    <input className="actualInput" type="text" onChange={this.updateMessage}/>
+                    <button className="inputButton" onClick={this.storeMessage}>Send Message</button>
                     </div>
                     <br />
                     <div className="imageRows">

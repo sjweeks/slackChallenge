@@ -14,15 +14,17 @@ import List from './images/list.png';
 import Type from './images/type.png';
 import At from './images/at.png';
 import Emoji from './images/smile.png';
+import Status from './components/Status.js'
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="nav-container">
-          <h3>Nav Bar</h3>
-          <Navbar />
-        </div>
+        <nav className='nav-container'>
+          <Navbar>
+            <Status/>
+          </Navbar>
+        </nav>
         <br />
         <div className="content-container">
           <ContentHeader />

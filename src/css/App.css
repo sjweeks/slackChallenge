@@ -16,18 +16,16 @@
     height: 100vh;
     background-color: #4A154B;
     border: grey 0.5px solid;
+    color: whitesmoke;
 }
 
-
-/* .inputSection{
-    background-color: whitesmoke;
+.content-container{
     display: flex;
-    align-content: flex-end;
-    padding: 30px;
-    margin: 30px;
-    border: 2px solid grey;
-    width: 50%;
-} */
+    flex-direction: column;
+    width: 80%;
+    /* height: 60px; */
+}
+
 
 @media all and (max-width:1000px) {
     .content-container{
