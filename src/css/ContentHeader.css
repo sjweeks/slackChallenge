@@ -6,6 +6,15 @@
 }
 
 .contentHeader{
+    display: flex;
+    justify-content: space-between;
     background-color: whitesmoke;
     border: grey 0.5px solid;
+    margin-top: 1px;
+}
+
+.headerImages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }

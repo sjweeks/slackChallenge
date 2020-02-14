@@ -18,12 +18,6 @@
     border: grey 0.5px solid;
 }
 
-.content-container{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    /* height: 60px; */
-}
 
 /* .inputSection{
     background-color: whitesmoke;

@@ -49,12 +49,13 @@ class Content extends Component {
                         <img src={Attach} alt="Attach" />
                         <img src={Bold} alt="Bold" />
                         <img src={Italic} alt="Italic" />
-                        <img src={Attach} alt="Attach" />
-                        <img src={Attach} alt="Attach" />
-                        <img src={Attach} alt="Attach" />
-                        <img src={Attach} alt="Attach" />
-                        <img src={Attach} alt="Attach" />
-                        <img src={Attach} alt="Attach" />
+                        <img src={StrikeThrough} alt="Strike" />
+                        <img src={Link} alt="Link" />
+                        <img src={OrderList} alt="Order List" />
+                        <img src={List} alt="List" />
+                        <img src={Type} alt="Type" />
+                        <img src={At} alt="At" />
+                        <img src={Emoji} alt="Emoji" />
                     </div>
                 </div>
             </div>

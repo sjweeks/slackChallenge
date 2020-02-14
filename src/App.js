@@ -27,12 +27,6 @@ class App extends Component {
         <div className="content-container">
           <ContentHeader />
           <Content />
-{/* 
-          <div c>
-          <input className="inputSection" type="text" />
-            <img src={Attach}/>
-
-          </div> */}
         </div>
       </div>
     );
