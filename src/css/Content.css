@@ -7,4 +7,27 @@
 
 .mainContent { 
     display: flex;
+    height: 60vh;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* height: 60px; */
+}
+
+.inputSection{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 30px;
+    margin: 30px;
+    border: 2px solid grey;
+    /* width: 50%; */
+}
+
+.imageRows{
+    display: flex;
 }

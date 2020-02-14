@@ -25,15 +25,15 @@
     /* height: 60px; */
 }
 
-.inputSection{
+/* .inputSection{
     background-color: whitesmoke;
     display: flex;
     align-content: flex-end;
     padding: 30px;
     margin: 30px;
     border: 2px solid grey;
-    /* width: 50%; */
-}
+    width: 50%;
+} */
 
 @media all and (max-width:1000px) {
     .content-container{
