@@ -3,6 +3,7 @@ import './css/App.css';
 
 import Content from './components/Content.js'
 import Navbar from './components/Navbar.js'
+import Status from './components/Status.js'
 import ContentHeader from './components/ContentHeader.js'
 
 class App extends Component {
@@ -10,16 +11,18 @@ class App extends Component {
     return (
       <div>
 
-        <div className='navbar'>
-          <h3>Nav Bar</h3>
-          <Navbar />
-        </div>
+        <nav className='navbar'>
+          
+          <Navbar>
+            <Status/>
+          </Navbar>
+        </nav>
 
-        <div className='content'>
+         <div className='content'>
           <ContentHeader />
           <Content />
-          <input type='text'/>
-        </div>
+          {/* <input type='text'/> */}
+         </div> 
         
       </div>
     )

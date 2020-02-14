@@ -5,17 +5,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-.container{
+.mainContent { 
     display: flex;
-    width: 100%;
-
-}
-
-.nav-container{
-    width: 20%;
-    height: 100vh;
-    background-color: #4A154B;
-    border: grey 0.5px solid;
+    height: 60vh;
 }
 
 .content-container{
@@ -25,25 +17,17 @@
     /* height: 60px; */
 }
 
-/* .inputSection{
+.inputSection{
     background-color: whitesmoke;
     display: flex;
+    flex-direction: column;
     align-content: flex-end;
     padding: 30px;
     margin: 30px;
     border: 2px solid grey;
-    width: 50%;
-} */
-
-@media all and (max-width:1000px) {
-    .content-container{
-        display: flex;
-    }
+    /* width: 50%; */
 }
 
-@media all and (max-width:500px) {
-    .content-container{
-        display: flex;
-        flex-wrap: wrap;
-    }
+.imageRows{
+    display: flex;
 }
