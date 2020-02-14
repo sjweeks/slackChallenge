@@ -3,6 +3,8 @@ import Status from "./Status";
 import JumpTo from "./JumpTo";
 import { Link, BrowserRouter } from "react-router-dom";
 import "../css/Navbar.css";
+import Circle from '../images/circle.png';
+import StatusPic from '../images/status.png';
 
 export default class Navbar extends Component {
   state = {
@@ -11,42 +13,30 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <div className="navbar">
+      <div className="navBar">
         <Status userName={this.state.username} />
-        <JumpTo className="jumpTo" />
-        <nav className="directory">
-          <ul>
-            <h4>Channels</h4>
-            <BrowserRouter>
-              <li>
-                {" "}
-                <Link to="./DevelopmentChannel">Development</Link>{" "}
-              </li>
-              <li>
-                {" "}
-                <Link to="./RandomChannel">Random</Link>{" "}
-              </li>
-              <li>
-                {" "}
-                <Link to="./GeneralChannel">General</Link>{" "}
-              </li>
-            </BrowserRouter>
-            <h4>Direct messages</h4>
-            <BrowserRouter>
-              <li>
-                {" "}
-                <Link to="./DmSarah">Sarah Weeks</Link>{" "}
-              </li>
-              <li>
-                {" "}
-                <Link to="./DmWill">Will Robinson</Link>{" "}
-              </li>
-              <li>
-                {" "}
-                <Link to="./DmDanny">Danny Sutcliffe</Link>{" "}
-              </li>
-            </BrowserRouter>
-          </ul>
+        <JumpTo />
+        <nav>
+          <div className="directory">
+              <h4>Channels</h4>
+              <BrowserRouter>
+                  {" "}
+                  <Link className="links" to="./DevelopmentChannel">#Development</Link>{" "}
+                  {" "}
+                  <Link className="links" to="./RandomChannel">#Random</Link>{" "}
+                  {" "}
+                  <Link className="links" to="./GeneralChannel">#General</Link>{" "}
+              </BrowserRouter>
+              <h4>Direct messages</h4>
+              <BrowserRouter>
+                  {" "}
+                  <Link className="links" to="./DmSarah"><img src={StatusPic} alt="Status"/> Sarah Weeks</Link>{" "}
+                  {" "}
+                  <Link className="links" to="./DmWill"><img src={StatusPic} alt="Status"/> Will Robinson</Link>{" "}
+                  {" "}
+                  <Link className="links" to="./DmDanny"><img src={StatusPic} alt="Status"/> Danny Sutcliffe</Link>{" "}
+              </BrowserRouter>
+          </div>
         </nav>
       </div>
     );

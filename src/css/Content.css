@@ -41,7 +41,7 @@
     background-color: whitesmoke;
     align-content: flex-end;
     padding: 6px;
-    width: 750px;
+    width: 900px;
     height: 60px;
 }
 .imageRows{
@@ -54,4 +54,18 @@
 img{
     width: 20px;
     height: 17px;
+    transition: background-color;
+}
+
+img :hover{
+    background-color: lightgrey;
+}
+
+.username{
+    font-weight: bolder;
+}
+
+.timestamp{
+    font-size: 10px;
+    color: grey;
 }

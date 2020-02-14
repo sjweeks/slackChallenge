@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+input {
+  background-color: #563C5C;
+  opacity: 0.6;
+  height: 30px;
+  width: 200px;
+}
+
+input ::placeholder {
+  color: white;
+}

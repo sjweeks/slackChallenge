@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <nav className='nav-container'>
+        <nav className="navContainer">
           <Navbar>
             <Status/>
           </Navbar>
