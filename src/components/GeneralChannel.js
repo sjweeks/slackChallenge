@@ -5,13 +5,13 @@ import Navbar from './Navbar'
 import Status from './components/Status.js'
 
 
-export default function DevelopmentChannel() {
+export default function GeneralChallange() {
     return (
         <div>
-            <Navbar>
-                <Status />
-            </Navbar>
-            <ContentHeader />
+           <Navbar>
+            <Status/>
+          </Navbar>
+            <ContentHeader/>
             <Content />
         </div>
     )

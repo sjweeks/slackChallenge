@@ -1,11 +1,10 @@
 import React from 'react'
 import Content from './Content'
-import ContentHeader from './ContentHeader'
 import Navbar from './Navbar'
+import ContentHeader from './ContentHeader'
 import Status from './components/Status.js'
 
-
-export default function DevelopmentChannel() {
+export default function RandomChannel() {
     return (
         <div>
             <Navbar>

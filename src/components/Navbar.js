@@ -2,6 +2,9 @@
 import React, { Component } from 'react'
 import Status from './Status'
 import JumpTo from './JumpTo'
+import { Link, BrowserRouter } from 'react-router-dom'
+import '../css/Navbar.css';
+
 export default class Navbar extends Component {
 
     state = {
@@ -19,15 +22,23 @@ export default class Navbar extends Component {
             <div>
                 <Status userName={this.state.username} />
                 < JumpTo />
-                {/* <nav>
+                <nav>
                     <ul>
-                        <li> <Link to="./DevelopmentChannel">Development</Link> </li>
+                        <BrowserRouter>
+                            <li> <Link to="./DevelopmentChannel">Development</Link> </li>
+                            <li> <Link to="./RandomChannel">Random</Link> </li>
+                            <li> <Link to="./GeneralChannel">General</Link> </li>
+                        </BrowserRouter>
+                        {/* <li> <Link to="./GeneralChannel">Development</Link> </li>
+                        <li> <Link to="./GeneralChannel">Development</Link> </li>
+                        <li> <Link to="./GeneralChannel">Development</Link> </li> */}
 
 
-                        <li> <Link to='/about'>About</Link> </li>
-                        <li>Basket: {props.myBasket}</li>
+
+
+
                     </ul>
-                </nav> */}
+                </nav>
             </div>
         )
     }

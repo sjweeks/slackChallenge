@@ -18,11 +18,11 @@ class App extends Component {
           </Navbar>
         </nav>
 
-        <div className='content'>
+         <div className='content'>
           <ContentHeader />
           <Content />
           {/* <input type='text'/> */}
-        </div>
+         </div> 
         
       </div>
     )

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import '../css/ContentHeader.css';
 
 function ContentHeader() {
     return (
-        <div>
-            
+        <div className="contentHeader">
+            <div>
+                <h1>Header</h1>
+            </div>
         </div>
     )
 }
