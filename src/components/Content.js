@@ -62,16 +62,17 @@ class Content extends Component {
                     </div>
                     <br />
                     <div className="imageRows">
-                        <img src={Attach} alt="Attach" />
-                        <img src={Bold} alt="Bold" />
-                        <img src={Italic} alt="Italic" />
-                        <img src={StrikeThrough} alt="Strike" />
-                        <img src={Link} alt="Link" />
-                        <img src={OrderList} alt="Order List" />
-                        <img src={List} alt="List" />
-                        <img src={Type} alt="Type" />
-                        <img src={At} alt="At" />
-                        <img src={Emoji} alt="Emoji" />
+                        <button><img src={Attach} alt="Attach" /></button>
+                        <button><img src={Bold} alt="Bold" /></button>
+                        <button><img src={Italic} alt="Italic" /></button>
+                        <button><img src={StrikeThrough} alt="Strike" /></button>
+                        <button><img src={Link} alt="Link" /></button>
+                        <button><img src={OrderList} alt="Order List" /></button>
+                        <button><img src={List} alt="List" /></button>
+                        <button><img src={Type} alt="Type" /></button>
+                        <button><img src={At} alt="At" /></button>
+                        <button><img src={Emoji} alt="Emoji" /></button>
+                        
                     </div>
                 </div>
             </div>

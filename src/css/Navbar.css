@@ -17,9 +17,13 @@
   padding: 12px;
 }
 
-.directory {
+.directory, .directoryList {
   display: flex;
   flex-direction: column;
+}
+
+.directoryList :hover{
+    color: darkgray;
 }
 
 .links {
@@ -27,14 +31,36 @@
   color: whitesmoke;
 }
 
+.slack{
+    display: flex;
+    align-items: baseline;
+}
+
+.slack > img{
+    height: 90px;
+    width: 90px;
+}
+
 img {
   width: 20px;
   height: 17px;
 }
 
+.optionsButton{
+    display: none;
+}
+
 @media all and (max-width: 1000px) {
   .navBar {
     font-size: 9px;
+    height: 110vh;
+  }
+  .optionsButton{
+      display: none;
+  }
+  .slack > img{
+      width: 40px;
+      height: 40px;
   }
 }
 
@@ -45,5 +71,9 @@ img {
     img{
         width: 14px;
         height: 13px;
+    }
+    .optionsButton{
+        display: initial;
+        width: 20px;
     }
 }

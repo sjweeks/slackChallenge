@@ -16,18 +16,18 @@ function ContentHeader() {
       <div className="headerSection">
         <h1>Header</h1>
         <div className="infoImages">
-          <img src={Star} alt="Star" />
-          <img src={User} alt="User" />
-          <img src={Pin} alt="Pin" />
+          <button><img src={Star} alt="Star" /></button>
+          <button><img src={User} alt="User" /></button>
+          <button><img src={Pin} alt="Pin" /></button>
         </div>
       </div>
       <div className="headerImages">
-        <img src={Phone} alt="Phone" />
-        <img src={Information} alt="Info" />
-        <img src={Settings} alt="Settings" />
-        <img src={At} alt="At" />
-        <img src={Star} alt="Star" />
-        <img src={Dots} alt="Dots" />
+        <button><img src={Phone} alt="Phone" /></button>
+        <button><img src={Information} alt="Info" /></button>
+        <button><img src={Settings} alt="Settings" /></button>
+        <button><img src={At} alt="At" /></button>
+        <button> <img src={Star} alt="Star" /></button>
+        <button><img src={Dots} alt="Dots" /></button>
       </div>
     </div>
   );
