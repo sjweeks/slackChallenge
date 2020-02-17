@@ -32,3 +32,18 @@
     justify-content: space-around;
     width: 30%;
 }
+
+@media all and (max-width: 1000px) {
+    .contentHeader{
+        width: 80%;
+    }
+    h1{
+        font-size: 20px;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    .contentHeader{
+
+    }
+  }

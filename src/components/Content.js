@@ -56,7 +56,7 @@ class Content extends Component {
                 </div>
                 <div className="inputSection">
                     <div className="userInput">
-                    <input className ="actualInput" value={this.state.inputValue} type="text" onChange={this.updateMessage}/>
+                    <input className ="actualInput" placeholder="Enter Message Here" value={this.state.inputValue} type="text" onChange={this.updateMessage}/>
                     <button className="inputButton" onClick={this.storeMessage}>Send Message</button>
 
                     </div>

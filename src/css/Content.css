@@ -69,3 +69,16 @@ img :hover{
     font-size: 10px;
     color: grey;
 }
+
+@media all and (max-width:1000px) {
+    .content-container{
+        display: flex;
+    }
+}
+
+@media all and (max-width:500px) {
+    .content-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -23,11 +23,27 @@
 }
 
 .links {
-    text-decoration: none;
-    color: whitesmoke;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
-img{
-    width: 20px;
-    height: 17px;
+img {
+  width: 20px;
+  height: 17px;
+}
+
+@media all and (max-width: 1000px) {
+  .navBar {
+    font-size: 9px;
+  }
+}
+
+@media all and (max-width: 500px) {
+    .navBar{
+        /* width: 110%; */
+    }
+    img{
+        width: 14px;
+        height: 13px;
+    }
 }
